@@ -5,7 +5,7 @@ export function Hero() {
   return (
    <section>
     <div
-      className="container mx-auto px-4 pt-20 sm:px-6 lg:px-8"
+      className="container mx-auto px-4 pt-20 sm:px-6 lg:px-8 pb-4 sm:pb-0"
     >
       <main
         className="flex items-center justify-center"

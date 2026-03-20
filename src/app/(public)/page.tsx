@@ -1,3 +1,4 @@
+import { Companies } from "./_components/companies";
 import { Header } from "./_components/header";
 import { Hero } from "./_components/hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
       <div>
         <Hero />
+        <Companies />
       </div>
     </div>
   );
