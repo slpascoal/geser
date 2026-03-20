@@ -14,6 +14,7 @@ const eslintConfig = defineConfig([
     },
     rules: {
       quotes: ['error', 'single', { avoidEscape: true }],
+      semi: ['error', 'always'],
       indent: ['error', 2, { SwitchCase: 1 }],
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': 'off',
