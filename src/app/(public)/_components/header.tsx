@@ -57,7 +57,7 @@ export function Header() {
 
   return (
     <header
-      className="fixed top-0 right-0 left-0 z-[999] py-4 px-6 border-b border-slate-800"
+      className="fixed top-0 right-0 left-0 z-999 py-4 px-6 border-b border-slate-800"
     >
       <div className="container mx-auto flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold">
@@ -91,7 +91,7 @@ export function Header() {
 
           <SheetContent
             side="right"
-            className="p-8 w-[240px] sm:w-[300px] z-[9999] border-l border-slate-800"
+            className="p-8 w-60 sm:w-75 z-9999 border-l border-slate-800"
           >
             <SheetTitle>Menu</SheetTitle>
             <SheetDescription
