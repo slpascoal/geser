@@ -45,9 +45,7 @@ export function Header() {
           Painel da clínica
         </Link>
       ) : (
-        <Button
-          className="text-base"
-        >
+        <Button className="text-base">
           <LogIn />
           Login
         </Button>
@@ -56,17 +54,16 @@ export function Header() {
   );
 
   return (
-    <header
-      className="fixed top-0 right-0 left-0 z-999 py-4 px-6 border-b border-slate-800"
-    >
+    <header className="fixed top-0 right-0 left-0 z-999 py-4 px-6 border-b border-slate-800">
       <div className="container mx-auto flex items-center justify-between">
-        <Link href="/" className="text-2xl font-bold">
+        <Link 
+          href="/"
+          className="text-2xl font-bold"
+        >
           Ge<span className="text-primary">ser</span>
         </Link>
 
-        <nav
-          className="hidden md:flex items-center space-x-4"
-        >
+        <nav className="hidden md:flex items-center space-x-4">
           <NavLinks />
         </nav>
 
@@ -83,9 +80,7 @@ export function Header() {
               className="text-primary"
               size="icon"
             >
-              <Menu 
-                className="w-6 h-6"
-              />
+              <Menu className="w-6 h-6"/>
             </Button>
           </SheetTrigger>
 
@@ -94,15 +89,11 @@ export function Header() {
             className="p-8 w-60 sm:w-75 z-9999 border-l border-slate-800"
           >
             <SheetTitle>Menu</SheetTitle>
-            <SheetDescription
-              className="pb-4 border-b border-slate-800"
-            >
+            <SheetDescription className="pb-4 border-b border-slate-800">
               Veja nossos links
             </SheetDescription>
 
-            <nav
-              className="flex flex-col space-y-4 mt-2"
-            >
+            <nav className="flex flex-col space-y-4 mt-2">
               <NavLinks />
             </nav>
           </SheetContent>
