@@ -2,6 +2,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
+  "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "eslint.useFlatConfig": true,
   "eslint.validate": [
