@@ -6,14 +6,14 @@ import Link from "next/link";
 
 export function Companies() {
   return (
-    <section className="py-12 bg-[#121c33]">
+    <section className="py-12 bg-[#02071c]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl text-center mb-12 font-bold">
           Clínicas disponíveis
         </h2>
 
         <section className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <Card className="overflow-hidden p-0">
+          <Card className="overflow-hidden p-0 bg-transparent">
             <CardContent className="p-0">
               <div>
                 <div className="relative h-48">

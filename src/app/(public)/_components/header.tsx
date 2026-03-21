@@ -54,7 +54,7 @@ export function Header() {
   );
 
   return (
-    <header className="fixed top-0 right-0 left-0 z-999 py-4 px-6 border-b border-slate-800">
+    <header className="fixed top-0 right-0 left-0 z-999 py-4 px-6 border-b border-slate-800 bg-slate-950">
       <div className="container mx-auto flex items-center justify-between">
         <Link 
           href="/"
